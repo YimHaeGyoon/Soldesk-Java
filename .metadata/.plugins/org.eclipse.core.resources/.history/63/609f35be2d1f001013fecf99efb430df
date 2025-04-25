@@ -1,0 +1,22 @@
+package chapter08;
+
+public class Sportcar extends Car {
+
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public void speedUp() {
+		speed += 1;
+		System.out.println("speed: " + speed);
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("스포츠카가 멈춥니다.");
+		speed = 0;
+
+	}
+
+}

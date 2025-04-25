@@ -1,0 +1,23 @@
+package chapter09;
+
+public class AnimalMain {
+
+	public static void main(String[] args) {
+
+		Dog D = new Dog();
+		Cat C = new Cat();
+
+		Dog[] dogarr = new Dog[12];
+		dogarr[0] = C;
+
+		animalSound(D);
+		animalSound(C);
+
+	}
+
+	public static void animalSound(Animal animal) {
+		animal.sound();
+
+	}
+
+}

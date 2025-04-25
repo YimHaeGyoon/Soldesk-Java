@@ -1,0 +1,20 @@
+package chapter09;
+
+public class AnimalMain {
+
+	public static void main(String[] args) {
+
+		Dog D = new Dog();
+		Cat C = new Cat();
+
+		animalSound(D);
+		animalSound(C);
+
+	}
+
+	public static void animalSound(Animal animal) {
+		animal.sound();
+
+	}
+
+}

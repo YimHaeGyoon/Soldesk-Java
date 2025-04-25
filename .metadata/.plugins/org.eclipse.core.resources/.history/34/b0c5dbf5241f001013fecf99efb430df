@@ -1,0 +1,9 @@
+package chapter08;
+
+public class Marine extends starUnit {
+	int att = 6;
+
+	void attack(starUnit zergling) {
+		zergling.hp -= att;
+	}
+}

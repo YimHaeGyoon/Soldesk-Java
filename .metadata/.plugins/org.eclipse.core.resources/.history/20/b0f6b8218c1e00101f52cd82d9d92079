@@ -1,0 +1,14 @@
+package chapter07;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		int a;
+		a = 10;
+
+		System.out.println("hello java" + a + 10);
+
+	}
+
+}

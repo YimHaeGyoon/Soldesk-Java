@@ -1,0 +1,34 @@
+package chapter05;
+
+import java.util.Scanner;
+
+public class Pastry_09 {
+
+	// 멤버변수
+
+	// 생성자
+
+	// 메서드1
+	public void makeBread() {
+		System.out.println("빵을 만듭니다.");
+	}
+
+	// 메서드1
+	public void makeBread(int cnt) {
+		for (int i = 0; i < cnt; i++) {
+			System.out.println((i + 1) + "번째 빵을 만들었습니다.");
+		}
+		System.out.println("요청하신 " + cnt + "개의 빵이 모두 완료되었습니다.");
+	}
+
+//--------------------------------------
+
+	void order() {
+
+		boolean run = true;
+
+		Scanner scan = new Scanner(System.in);
+
+	}
+
+}

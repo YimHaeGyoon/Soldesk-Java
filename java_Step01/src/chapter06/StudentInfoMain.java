@@ -1,0 +1,30 @@
+package chapter06;
+
+public class StudentInfoMain {
+
+	public static void main(String[] args) {
+
+		StudentInfo_06 studentchoi = new StudentInfo_06(1004, "최백설", 1, "일산");
+		// 직관적인 초기화
+		System.out.println(studentchoi.studentID);
+		System.out.println(studentchoi.grade);
+		System.out.println(studentchoi.address);
+
+		System.out.println(studentchoi.getStudentName());
+
+		// 기본 생성자를 이용해서 객체 생성(studentkim)
+		StudentInfo_06 studentkim = new StudentInfo_06();
+
+		// 주소를 직관적으로 초기화 하고 출력
+		studentkim.address = "종로구";
+		System.out.println(studentkim.address);
+
+		// 기본 생성자를 이용해서 객체 생성(studentklee)
+		StudentInfo_06 studentlee = new StudentInfo_06();
+		// getters /setters
+		studentlee.setStudentName("나세종");
+		studentlee.getStudentName();
+
+	}
+
+}

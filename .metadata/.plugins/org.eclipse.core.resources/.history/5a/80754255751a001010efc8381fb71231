@@ -1,0 +1,16 @@
+package chapter04;
+
+public class TwoDimension_10 {
+
+	public static void main(String[] args) {
+		
+		int javaScore[][] = new int[2][3];
+		
+		for(int i=0;i<javaScore.length;i++) {//2행
+				for(int j=0;j<javaScore[i].length;j++)
+					int jumsu=
+		}
+
+	}
+
+}

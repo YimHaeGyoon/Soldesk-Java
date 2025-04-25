@@ -1,0 +1,33 @@
+package chapter06;
+
+public class TeamMember_05 {
+
+	// 멤버변수
+	private TeamMember[] member = new TeamMember[5];
+	private TeamMember m = new TeamMember();
+	
+	// 기본생성자
+	// 초기화 메서드
+	public void init() {
+		// 생성자 오버로드 사용
+		member[0] = new TeamMember("신인철", "남학생");
+		member[1] = new TeamMember("김관호", "남학생");
+		member[2] = new TeamMember("문원주", "남학생");
+		member[3] = new TeamMember("임해균", "남학생");
+		member[4] = new TeamMember("유연우", "여학생");
+	}//init
+
+	public void Disp() {
+		
+		for (int i=0;i<member.length;i++) {
+			System.out.print("성명: "+(member[0].getmName()));
+			System.out.println("성별:"+(member[0].getGender()));
+		}
+	
+	}//Disp
+	
+
+	
+	
+
+}// class

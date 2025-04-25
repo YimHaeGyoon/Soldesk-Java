@@ -1,0 +1,10 @@
+package Starcraft;
+
+public class StarUnit {
+	int hp;
+	int type;
+	
+	void attack(StarUnit zergling) {
+		zergling.hp -= att;
+	}
+}

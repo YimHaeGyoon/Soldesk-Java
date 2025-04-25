@@ -1,0 +1,14 @@
+package chapter12.wrapper;
+
+public class WrapperMain_03 {
+
+	public static void main(String[] args) {
+
+		String str1 = "";
+		String str2 = "";
+		char ch = 65; // A
+		double num1, num2;
+
+	}
+
+}

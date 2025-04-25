@@ -1,0 +1,31 @@
+package chapter11;
+
+
+class OutterRun{
+	// 익명의 클래스
+	Runnable getRunnable{
+		int num=100;
+	
+		return new Runnable(int i) {
+		
+			
+
+		public class AnonyMousInnerMain_05 {
+
+		@Override
+		public void run() {
+		  
+			
+			
+			
+			
+		}
+		}//OutterRun
+		
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+
+
+	}
+
+}

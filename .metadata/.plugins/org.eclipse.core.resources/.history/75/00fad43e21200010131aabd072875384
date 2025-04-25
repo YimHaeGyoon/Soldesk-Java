@@ -1,0 +1,13 @@
+package Starcraft;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		String a = "qwirhfsd";
+		int num = a.indexOf("r");
+
+		System.out.println(a.charAt(num));
+	}
+
+}

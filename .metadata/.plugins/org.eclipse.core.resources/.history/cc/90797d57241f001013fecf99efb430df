@@ -1,0 +1,13 @@
+package chapter08;
+
+public class Zealot extends starUnit {
+	int type = 0;
+	int att = 8 * 2;
+	int shd = 100;
+
+	void attack(starUnit Marine) {
+		Marine.hp -= att;
+
+	}
+
+}

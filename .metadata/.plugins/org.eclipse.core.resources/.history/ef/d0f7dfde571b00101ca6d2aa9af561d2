@@ -1,0 +1,16 @@
+package chapter05;
+
+public class Pastry_09 {
+
+	// 멤버변수
+
+	// 생성자
+
+	// 메서드
+
+	public void makeBread() {
+		System.out.println("빵을 만듭니다.");
+
+	}
+
+}

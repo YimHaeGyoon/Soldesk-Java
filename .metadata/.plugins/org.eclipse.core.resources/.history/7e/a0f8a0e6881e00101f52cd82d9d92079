@@ -1,0 +1,11 @@
+package chapter07;
+
+public class Company_05 {
+
+	private static Company_05 instance=new Company_05();
+	
+	
+
+	}
+
+}

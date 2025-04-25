@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="chapter05.Pastry_09"/>
+    <fullyQualifiedTypeName name="chapter07.Student_03"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="chapter07.Company_05"/>
+    <fullyQualifiedTypeName name="chapter09.Car"/>
+    <fullyQualifiedTypeName name="chapter09.GameCharacter"/>
+    <fullyQualifiedTypeName name="chapter09.Phone"/>
+    <fullyQualifiedTypeName name="chapter10.Interface.CompleteCalc2"/>
+    <fullyQualifiedTypeName name="chapter10.Interface.Remote"/>
+    <fullyQualifiedTypeName name="chapter10.Interface.SmartTelevision"/>
+    <fullyQualifiedTypeName name="chapter10.Interface.Searchable"/>
+    <fullyQualifiedTypeName name="chapter10.Interface.MyInterface"/>
+    <fullyQualifiedTypeName name="chapter10.MultiInterface.RoundRobin"/>
+    <fullyQualifiedTypeName name="chapter10.MultiInterface.Scheduler"/>
+    <fullyQualifiedTypeName name="chapter10.MultiInterface.LeastJob"/>
+    <fullyQualifiedTypeName name="chapter10.MultiInterface.PriorityAllocation"/>
+    <fullyQualifiedTypeName name="chapter10.MultiInterface.Customer"/>
+    <fullyQualifiedTypeName name="chapter10.MultiInterface.Inter_Menu1"/>
+    <fullyQualifiedTypeName name="chapter11.Out"/>
+    <fullyQualifiedTypeName name="chapter11.Out.In"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+</qualifiedTypeNameHistroy>

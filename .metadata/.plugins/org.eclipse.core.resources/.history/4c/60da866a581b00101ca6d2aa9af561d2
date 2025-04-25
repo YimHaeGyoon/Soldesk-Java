@@ -1,0 +1,14 @@
+package chapter05;
+
+public class PastryMain {
+
+	public static void main(String[] args) {
+
+		Pastry_09 bread = new Pastry_09();
+
+		bread.makeBread();
+		bread.makeBread(5);
+
+	}
+
+}

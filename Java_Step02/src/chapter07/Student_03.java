@@ -1,0 +1,23 @@
+package chapter07;
+
+public class Student_03 {
+
+	public static int seriaLNum = 10000;
+	int studentID;
+	String StudentName;
+	int grade;
+	String address;
+
+	public String getStudentName() {
+		return StudentName;
+	}
+
+	public void setStudentName(String studentName) {
+		StudentName = studentName;
+	}
+
+	public static int getSeriaLNum() {
+		return seriaLNum;
+	}
+
+}

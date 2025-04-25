@@ -1,0 +1,14 @@
+package Starcraft;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		String[] arr1 = { "Marine", "SCV", "Vulture", "Tank" };
+		for (int i = 0; i < arr1.length; i++) {
+			System.out.println(arr1[3]);
+		}
+		;
+	}
+
+}

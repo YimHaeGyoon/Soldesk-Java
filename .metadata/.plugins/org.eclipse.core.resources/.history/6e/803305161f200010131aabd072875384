@@ -1,0 +1,15 @@
+package Starcraft;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		String a= "Zealot";
+		System.out.println(a.charAt(6));
+				
+				
+				
+		
+	}
+
+}

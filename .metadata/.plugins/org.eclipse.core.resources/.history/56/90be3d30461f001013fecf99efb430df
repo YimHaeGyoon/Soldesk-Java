@@ -1,0 +1,16 @@
+package chapter08;
+
+public class CalMain {
+
+	public static void main(String[] args) {
+		Example cal = new Example();
+
+		cal = new CalPlus();
+		System.out.println(cal.getResult(20, 10));
+
+		cal = new CalMinus();
+		System.out.println(cal.getResult(10, 5));
+
+	}
+
+}

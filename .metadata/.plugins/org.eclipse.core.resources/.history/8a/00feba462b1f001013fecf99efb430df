@@ -1,0 +1,25 @@
+package Starcraft;
+
+public class StarMain {
+	public static void main(String[] args) {
+		StarUnit[] arr1 = new StarUnit[12];
+
+		arr1[0] = new Marine();
+		arr1[1] = new Zealot();
+		arr1[2] = new Dragoon();
+		arr1[3] = new Marine();
+		arr1[4] = new Marine();
+		arr1[5] = new Marine();
+		arr1[6] = new Marine();
+		arr1[7] = new Marine();
+		arr1[8] = new Marine();
+		arr1[9] = new Marine();
+		arr1[10] = new Marine();
+		arr1[11] = new Marine();
+
+		for (int i = 0; i < 12; i++) {
+			arr1[i].attack(new StarUnit());
+		}
+
+	}
+}

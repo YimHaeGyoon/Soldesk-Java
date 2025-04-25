@@ -1,0 +1,16 @@
+package chapter05;
+
+public class MethodTest_13 {
+
+	public static void main(String[] args) {
+		
+		int sum=add(5,7);
+		double sumDouble=add(3.5, 7.2);
+	}
+
+	//Overload
+	//정수의 합
+	
+	//실수의 합
+
+}

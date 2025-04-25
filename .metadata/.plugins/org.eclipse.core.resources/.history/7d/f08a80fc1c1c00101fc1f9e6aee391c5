@@ -1,0 +1,13 @@
+package chapter06;
+
+public class TeamMember_05 {
+
+	private TeamMember[] member= new teamMember[5];
+ 
+	public void init() {
+		
+		member[0] = new TeamMember ("신인철","남학생");
+	
+	}
+
+}

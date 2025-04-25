@@ -1,0 +1,14 @@
+package chapter06;
+
+import java.lang.reflect.Member;
+
+public class TeamMember_05 {
+	
+	TeamMember member=new TeamMember();
+	
+	public void init() {
+		member.mName="신인철";
+		
+	}
+
+}

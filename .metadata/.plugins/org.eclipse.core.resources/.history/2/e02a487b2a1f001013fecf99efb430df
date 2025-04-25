@@ -1,0 +1,7 @@
+package Starcraft;
+
+public class StarMain {
+	public static void main(String[] args) {
+		StarUnit[] arr1 = new StarUnit[12];
+	}
+}

@@ -1,0 +1,9 @@
+package chapter06;
+
+public class TeamMember_05 {
+	
+	TeamMember_05 member=new TeamMember_05();
+	
+	member.mN
+
+}

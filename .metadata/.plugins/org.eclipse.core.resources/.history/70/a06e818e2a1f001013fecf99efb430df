@@ -1,0 +1,6 @@
+package Starcraft;
+
+public class StarUnit {
+	int hp;
+	int type;
+}

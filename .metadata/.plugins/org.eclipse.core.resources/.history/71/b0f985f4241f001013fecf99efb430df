@@ -1,0 +1,12 @@
+package chapter08;
+
+public class Dragoon extends starUnit {
+	int Att = 20;
+	int Shd = 100;
+	
+	public Dragoon() {
+		type = 2;
+	}
+	
+
+}

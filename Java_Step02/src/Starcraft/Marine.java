@@ -1,0 +1,9 @@
+package Starcraft;
+
+public class Marine extends StarUnit {
+	int att = 6;
+
+	void attack(StarUnit Unit) {
+		System.out.println("두두둥");
+	}
+}

@@ -1,0 +1,6 @@
+package Starcraft;
+
+public class Marine extends StarUnit {
+	int att = 6;
+
+}

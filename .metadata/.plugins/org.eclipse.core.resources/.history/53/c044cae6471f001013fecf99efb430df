@@ -1,0 +1,31 @@
+package chapter08;
+
+import java.util.Scanner;
+
+public class CalMain {
+
+	public static void main(String[] args) {
+		/*Example cal = new Example();
+
+		cal = new CalPlus();
+		System.out.println(cal.getResult(20, 10));
+
+		cal = new CalMinus();
+		System.out.println(cal.getResult(10, 5));*/
+		
+		Scanner s= new Scanner(System.in);
+		
+		System.out.println("정수 A를 입력하세요: ");
+		int a=s.nextInt();
+		System.out.println("정수 B를 입력하세요. ");
+		int b=s.nextInt();
+		
+		calc(new CalPlus(),a,b);
+	}
+	
+	public static int calc(Example c1, int a, int b) {
+		c1.getResult(a, b);
+
+	}
+
+}

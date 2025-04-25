@@ -1,0 +1,13 @@
+package chapter09;
+
+public class Phone {
+
+	String owner;
+
+	// 상속시 부모의 생성자를 사용
+	public Phone(String owner) {
+
+		this.owner = owner;
+	}
+
+}

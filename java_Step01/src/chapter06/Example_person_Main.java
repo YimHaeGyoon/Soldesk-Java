@@ -1,0 +1,19 @@
+package chapter06;
+
+public class Example_person_Main {
+
+	public static void main(String[] args) {
+
+		// 이름:홍길동 키:180 몸무게: 80
+		String name;
+		float weight;
+		float height;
+
+		Example_person person = new Example_person();
+		person.name = "홍길동";
+		person.height = 180f;
+		person.weight = 80f;
+
+	}
+
+}

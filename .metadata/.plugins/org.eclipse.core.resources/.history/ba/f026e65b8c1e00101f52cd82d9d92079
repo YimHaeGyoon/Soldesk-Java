@@ -1,0 +1,21 @@
+package chapter06;
+
+public class Can {
+
+	// 멤버변수
+	private String canName;
+	private int price;
+
+	public Can(String canName, in tprice) {
+
+	}
+
+	public String getCanName() {
+		return canName;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+}

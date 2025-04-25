@@ -1,0 +1,15 @@
+package Starcraft;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		String a = "A";
+		String b = "a";
+		String c = "c";
+
+		System.out.println(a == b);
+
+	}
+
+}

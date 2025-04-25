@@ -1,0 +1,14 @@
+package chapter08;
+
+public class Vulture extends starUnit {
+	int type = 1;
+	int Spd = 100;
+	int att = 20;
+
+	void attack(Zealot zeal) {
+		if(zeal.type == 0) {
+			zeal.hp -= att*2;
+		}
+	}
+
+}

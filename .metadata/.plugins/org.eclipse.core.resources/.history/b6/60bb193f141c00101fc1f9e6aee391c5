@@ -1,0 +1,28 @@
+package chapter06;
+
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+//		System.out.println("점수를 입력하세요");
+//		int score= Scan.nextInt
+//		}
+
+		int a = 10;
+
+		if (a > 8) {
+			System.out.println("8");
+		}
+		if (a > 5) {
+			System.out.println("5");
+		}
+		if (a > 3) {
+			System.out.println("3");
+		}
+
+	}
+
+}
